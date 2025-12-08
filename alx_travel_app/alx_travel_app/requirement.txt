@@ -1,26 +1,30 @@
-Key Highlights
-Project Initialization:
-
-Create a Django project named alxtravelapp.
-Add an app named listings to encapsulate core functionalities.
-Dependency Management:
-
-Install essential packages:
-django: Core framework for application development.
-djangorestframework: REST API development.
-django-cors-headers: Cross-Origin Resource Sharing setup.
-drf-yasg: Swagger API documentation.
-celery and rabbitmq: For future task queuing and background processes.
-Settings Configuration:
-
-Use django-environ to securely handle environment variables in .env files.
-Configure MySQL as the primary database, ensuring proper connection handling in settings.py.
-Set up REST framework and CORS headers for API support.
-Swagger Integration:
-
-Integrate Swagger for comprehensive API documentation.
-Ensure all APIs are automatically documented and accessible at /swagger/.
-Version Control and Submission:
-
-Initialize a Git repository and commit all project setup files.
-Push your code to a GitHub repository named alxtravelapp with the specified structure.
+amqp==5.3.1
+asgiref==3.9.1
+billiard==4.2.1
+celery==5.5.3
+cffi==1.17.1
+click==8.2.1
+click-didyoumean==0.3.1
+click-plugins==1.1.1.2
+click-repl==0.3.0
+Django==5.2.6
+django-cors-headers==4.7.0
+django-environ==0.12.0
+djangorestframework==3.16.1
+drf-yasg==1.21.10
+inflection==0.5.1
+kombu==5.5.4
+mysqlclient==2.2.7
+packaging==25.0
+prompt_toolkit==3.0.52
+pycparser==2.22
+python-dateutil==2.9.0.post0
+pytz==2025.2
+PyYAML==6.0.2
+rabbitmq==0.2.0
+six==1.17.0
+sqlparse==0.5.3
+tzdata==2025.2
+uritemplate==4.2.0
+vine==5.1.0
+wcwidth==0.2.13
